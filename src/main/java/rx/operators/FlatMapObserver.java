@@ -1,10 +1,11 @@
-package rx.observer;
+package rx.operators;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 
 import rx.observable.Observable;
+import rx.observer.Observer;
 
 public class FlatMapObserver<T, R> implements Observer<T> {
 

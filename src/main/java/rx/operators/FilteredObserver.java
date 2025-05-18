@@ -1,7 +1,9 @@
-package rx.observer;
+package rx.operators;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Predicate;
+
+import rx.observer.Observer;
 
 public class FilteredObserver<T> implements Observer<T> {
 

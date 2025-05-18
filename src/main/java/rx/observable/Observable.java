@@ -8,11 +8,11 @@ import java.util.function.Predicate;
 import rx.disposable.DefaultDisposable;
 import rx.disposable.Disposable;
 import rx.observer.DisposableObserver;
-import rx.observer.FilteredObserver;
-import rx.observer.FlatMapObserver;
-import rx.observer.MappedObserver;
 import rx.observer.Observer;
 import rx.observer.ScheduledObserver;
+import rx.operators.FilteredObserver;
+import rx.operators.FlatMapObserver;
+import rx.operators.MappedObserver;
 import rx.scheduler.Scheduler;
 
 public class Observable<T> {

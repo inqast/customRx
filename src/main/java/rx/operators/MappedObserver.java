@@ -1,7 +1,9 @@
-package rx.observer;
+package rx.operators;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Function;
+
+import rx.observer.Observer;
 
 public class MappedObserver<T, R> implements Observer<T> {
 
